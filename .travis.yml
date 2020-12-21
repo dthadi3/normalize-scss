@@ -2,8 +2,11 @@
 # http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 sudo: false
 language: node_js
+arch:
+  - amd64
+  - ppc64le
 node_js:
-  - '4'
-  - '6'
   - '8'
   - '9'
+  - '12'
+  - '14'
